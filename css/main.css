@@ -1,1 +1,117 @@
+html, body{
+    height:100%;
+}
+body{
+    background-image: url("../images/9.jpg");
+}
+#page_body{
+    width: 98%;
+    min-height:100%;
+    border-left:2px double;
+    border-right:2px double;
+    border-color: dodgerblue;
+}
+#page_header{
+    padding:0;
+    margin:0;
+    text-align:center;
+    background-color: transparent;
+    color: orange;
+}
+.navigation, #tools{
+    border-color: dodgerblue !important;
+    background-image: url("../images/8.jpg");
+}
+.navigation a, .navigation button, .navigation p{
+    margin:5px;
+}
+#page_content{
+    margin-bottom:3%;
+    background-color: transparent;
+    border-color: dodgerblue;
+}
+#page_footer{
+    text-align:center;
+    bottom:0;
+    width:100%;
+    position:fixed;
+    background-image: url("../images/8.jpg");
+    border-color: dodgerblue;
+}
+.content_body{
+    color: azure;
+    padding: 2%;
+    margin: 1%;
+    background-image: url("../images/8.jpg");
+    border-color: dodgerblue !important;
+    font-size: medium;
+}
+.table, .table th, .table td{
+    border-color: dodgerblue !important;
+    text-align: center;
+    color: snow;
+    font-size: large;
+}
+.table th{
+    color: dodgerblue;
+}
+form, form input, form textarea{
+    background-color: transparent !important;
+    color: azure !important;
+    font-size: large !important;
+}
+form textarea{
+    resize: none;
+    width: 100%;
+}
+#tools, #status_body{
+    text-align: center;
+}
+#tools button{
+    width: 5%;
+}
+.selected{
+    background-color: indigo !important;
+}
+.route_select{
+    background-color: black !important;
+}
+.new{
+    background-color: transparent !important;
+}
 
+.changed{
+    background-color: limegreen !important;
+}
+
+.dropdown_edit{
+    display: none;
+}
+
+#message_body{
+    border-color: dodgerblue;
+    padding: 1%;
+    margin-bottom: 1%;
+    background-color: transparent;
+}
+#message_body span{
+    color: lawngreen;
+}
+#remove_message_btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.5%;
+}
+.lawngreen_font{
+    color: lawngreen;
+}
+.orange_font{
+    color: orange;
+}
+.font_size_md{
+    font-size: medium;
+}
+a:hover{
+    color: snow !important;
+}
